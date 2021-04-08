@@ -1,0 +1,106 @@
+/* SELETTORE {
+  proprietà:valore;
+  proprietà:valore;
+}  */
+
+.box{
+  width: 1800px;
+  height: 1250px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+  color: white;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  margin: 300px;
+  margin-top: 10px;
+}
+
+
+
+  /* <!-- logo e il testo --> */
+.logo{
+  width: 320px;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+
+
+.logo-text{
+  margin-left: 300px;
+  font-size: 40px;
+  color: lime;
+}
+
+
+
+/* <!-- navigatore --> */
+.navigator{
+  text-align: center;
+  width:1150px;
+  background-color: lime;
+  padding: 15px;
+  display: inline-block;
+}
+
+
+
+p{
+  font-size: 25px;
+  font-family: verdana;
+}
+
+
+
+.monopattino{
+  display: inline-block;
+}
+
+
+
+  /* <!-- indicatori di carica dei monopattini --> */
+  input{
+    width: 18px;
+    height: 18px;
+  }
+
+
+
+.barraricarica{
+  width: 350px;
+  background-color: SandyBrown;
+  padding: 20px;;
+  border-radius: 8px;
+}
+
+
+
+.barraricarica2{
+  width: 700px;
+  background-color: LimeGreen;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+.barraricarica3{
+  width: 150px;
+  background-color: IndianRed;
+  padding: 20px;
+  border-radius: 10px;
+}
